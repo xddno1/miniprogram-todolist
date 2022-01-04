@@ -1,0 +1,20 @@
+<view class="root">
+  <view class="user" bindtap="getUserProfile">
+      <image src="{{userInfo.avatarUrl}}"/>
+      <text>{{userInfo.nickName}}</text>
+  </view>
+  <view class="content">
+    <view class="box">
+      统计
+    </view>
+    <view class="box">
+      标签
+    </view>
+    <view class="box">
+      关于
+    </view>
+    <view class="box">
+      敬请期待
+    </view>
+  </view>
+</view>

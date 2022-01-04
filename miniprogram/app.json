@@ -1,14 +1,38 @@
 {
+  "entryPagePath": "pages/mine/mine",
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/target/target",
+    "pages/mine/mine",
+    "pages/test/test"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#f8f4ea",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发基础",
+    "navigationBarBackgroundColor": "#f8f4ea",
+    "navigationBarTitleText": "Todolist",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar":{
+    "color":"#707070",
+    "selectedColor":"#f0d695",
+    "backgroundColor": "#f8f4ea",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"今日",
+      "iconPath":"./img/tarBar/todo.png",
+      "selectedIconPath":"./img/tarBar/todo-h.png"
+    },{
+      "pagePath":"pages/target/target",
+      "text":"目标",
+      "iconPath":"./img/tarBar/target.png",
+      "selectedIconPath":"./img/tarBar/target-h.png"
+    },{
+      "pagePath":"pages/mine/mine",
+      "text":"我的",
+      "iconPath":"./img/tarBar/user.png",
+      "selectedIconPath":"./img/tarBar/user-h.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
 }

@@ -1,0 +1,57 @@
+.root{
+  height: 100vh;
+  background-color: var(--bgc);
+  /* background-image: linear-gradient(#ffc107, #fff); */
+  box-sizing: border-box;
+  padding-top: 3vh;
+  padding: 3vh 6vw 0;
+}
+
+.user{
+  text-align: center;
+  width: 88vw;
+  height: 30vh;
+  background-color: var(--cell-bgc);
+  border-radius: 3vw;
+  margin-bottom: 3vh;
+}
+
+
+.user image{
+  margin-top: 3vh;
+  height: 17vh;
+  width: 17vh;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.user text{
+  display: block;
+  font-size: 6vw;
+  color: var(--name-color);
+}
+
+.content{
+  height: 64vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-content: flex-start;
+  color:var(--font-color)
+}
+
+.content .box{
+  box-sizing: border-box;
+  width: calc(50vw - 8vw);
+  height: calc(50vw - 8vw);
+  background-color: var(--cell-bgc);
+  border-radius: 10%;
+  margin-bottom: 3vw;
+}
+.content .box:active, .user:active{  
+  background-color: var(--bgc-active);
+}
+.content .box:nth-last-child(1), .content .box:nth-last-child(2){
+  margin-bottom: 0;
+}
+

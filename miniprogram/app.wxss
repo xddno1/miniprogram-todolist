@@ -1,0 +1,12 @@
+.root{
+  --name-color:#7a6c46;
+  --font-color:#9e8c5c;
+  --bgc:#ebe8e0;
+  --cell-bgc:#f8f4ea;
+  --bgc-active:#f5efe2;
+  /* --cell-right-icon-color: var(--font-color);
+  --cell-value-color: var(--font-color);
+  --cell-background-color: var(--cell-bgc);
+  --cell-active-color: var(--bgc-active); */
+
+}
